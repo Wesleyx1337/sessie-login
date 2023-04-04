@@ -36,8 +36,7 @@ else header("sessie.php");
             </div>
             <div class="nav-menu">
                 <ul>
-                    <li>Home</li>
-                    <li>Contact</li>
+                    <li class="logo">Contact</li>
                 </ul>
             </div>
         </nav>
@@ -45,12 +44,12 @@ else header("sessie.php");
             <div class="left-side">
                 <h1>Hello World</h1>
                 <p>Home</p>
-                <a href="#products">test <i class="fas fa-arrow-down"></i></a>
+                <a href="#profile" class="logo">test <i class="fas fa-arrow-down"></i></a>
             </div>
         </div>
     </div>
-    <section class="products">
-        <div class="content-block">
+    <section class="profile">
+        <div class="profile-block right-side">
             <h1>Github Profile</h1>
             <p>Here is my github Profile <br> You can find my link below</p>
             <a href="https://github.com/Wesleyx69">
@@ -61,7 +60,7 @@ else header("sessie.php");
         </div>
     </section>
     <section class="leaks">
-        <div class="container2">
+        <div class="container2 profile-block right-side">
             <h1>Header 2</h1>
             <p> test test test <br> hello hello hello</p>
         </div>
